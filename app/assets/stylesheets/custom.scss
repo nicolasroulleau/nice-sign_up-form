@@ -52,13 +52,13 @@ h1 {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 80%;
+  height: 83%;
 }
 
 .bottomright {
   background-color: #AAADAD;
   width: 100%;
-  height: 20%;
+  height: 17%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,12 +66,48 @@ h1 {
   color: #FFFFFF;
 }
 
+.instructions {
+  font-family: verdana;
+  color: black;
+  text-align: left;
+}
 
+.input {
+  font-family: verdana;
+  border: 1px dotted #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 75%;
+  padding: 16px 16px;
+
+}
+
+.submit-button {
+  background-color: #1469C9;
+  color: white;
+  padding: 16px 0px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  font-family: verdana;
+}
 
 .connect-button {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 20px;
+}
+
+.connect-button:hover {
+  text-decoration: underline;
 }
 
 /* Rules for sizing the icon. */
