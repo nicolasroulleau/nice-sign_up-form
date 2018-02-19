@@ -1,24 +1,8 @@
-# README
+# HTML / CSS Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bienvenue sur mon repo.
 
-Things you may want to cover:
+Pour accéder à l'app sur Heroku, clique sur le lien suivant: https://vast-retreat-45728.herokuapp.com/
 
-* Ruby version
+Le formulaire stylé est celui du sign-up.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
