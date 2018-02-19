@@ -1,0 +1,80 @@
+/*@import "bootstrap-sprockets";
+@import "bootstrap";*/
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  background-color: #1469C9;
+  width: 55%;
+  height: 100%;
+  color: white;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1, h5, p { 
+  padding-left: 55px;
+  font-family: verdana;
+}
+
+#greenline {
+  color: #3DE805;
+}
+
+.right {
+   background-color: #FFFFFF;
+   width: 45%;
+   height: 100%;
+   float: right;
+}
+
+.topright {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 80%;
+}
+
+.bottomright {
+  background-color: #AAADAD;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.right .field, .actions {
+  padding-left: 55px;
+  font-family: verdana;
+}
+
+.connect-button {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+

@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'devise'
 #gem 'pundit'
 
+gem 'bootstrap-sass', '3.3.7'
+
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
