@@ -29,6 +29,10 @@ body {
   font-family: verdana;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 #greenline {
   color: #3DE805;
 }
@@ -38,6 +42,7 @@ body {
    width: 45%;
    height: 100%;
    float: right;
+   font-family: verdana;
 }
 
 .topright {
@@ -61,10 +66,7 @@ body {
   color: #FFFFFF;
 }
 
-.right .field, .actions {
-  padding-left: 55px;
-  font-family: verdana;
-}
+
 
 .connect-button {
   color: #FFFFFF;
