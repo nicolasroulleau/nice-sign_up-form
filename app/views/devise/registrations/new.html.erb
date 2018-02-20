@@ -14,9 +14,9 @@
       <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
       <%= devise_error_messages! %>
           <p class="instructions">Entrez vos identifiants:</p>
-          <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder:"Email", class:"input" %><br>
-          <%= f.password_field :password, autocomplete: "off", placeholder:"Password (6 characters minimum)", class:"input" %><br>
-          <%= f.password_field :password_confirmation, autocomplete: "off", placeholder:"Password confirmation", class:"input" %>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder:"   Email", class:"input_email" %><br>
+          <%= f.password_field :password, autocomplete: "off", placeholder:"   Password (6 characters minimum)", class:"input_password" %><br>
+          <%= f.password_field :password_confirmation, autocomplete: "off", placeholder:"   Password confirmation", class:"input_password" %>
         <div class="actions">
           <%= f.submit "S'enregistrer", class:"submit-button" %>
         </div>

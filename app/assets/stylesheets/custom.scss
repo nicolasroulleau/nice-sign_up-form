@@ -81,13 +81,28 @@ h1 {
   text-align: left;
 }
 
-.input {
+.input_email {
   font-family: verdana;
   border: 1px dotted #ccc;
   border-radius: 8px;
   font-size: 16px;
   width: 75%;
   padding: 16px 16px;
+  background-image: url(asset-path('user.png'));
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.input_password {
+  font-family: verdana;
+  border: 1px dotted #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 75%;
+  padding: 16px 16px;
+  background-image: url(asset-path('lock.png'));
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 .submit-button {
