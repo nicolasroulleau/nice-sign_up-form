@@ -7,15 +7,24 @@ html {
 }
 
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+  height: 70%;
+  width: 70%;
+  margin: auto;
   padding: 0;
+  background-image: asset-data-url("vergers.jpg");
+  background-size: cover;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px dotted #ccc;
+  border-radius: 8px;
 }
 
 .left {
   background-color: #1469C9;
-  width: 55%;
+  width: 55%; 
   height: 100%;
   color: white;
   float: left;
